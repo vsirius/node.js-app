@@ -2,7 +2,7 @@
  var requestLoop = setInterval(function(){
  var mysql      = require('mysql');
  var connection = mysql.createConnection({
-  host     : '54.93.38.141',
+  host     : '172.17.0.2',
   user     : 'app',
   password : 'Ws0823~LL',
   database : 'application'
